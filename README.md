@@ -33,18 +33,18 @@ Para levantar la base de datos debe ejecutar el comando: `docker compose up`
 - EL programa permite listar autores que estuvieron vivos en un determinado año
 
 ### DEMOSTRACIÓN  
-- Vista del menu  
+- Vista del menu    
 ![vista del menu](./img/menuInicial.png)
-- Buscar libro por titulo  
+- Buscar libro por titulo    
 ![Opcion 1](./img/opcion1.png)  
-- Listar libros registrados  
+- Listar libros registrados    
 ![Opcion 2](./img/opcion2.png)
-- Listar autores registrados
+- Listar autores registrados    
 ![Opcion 3](./img/opcion3.png)
-- Listar autores vivos en un determinado año
+- Listar autores vivos en un determinado año  
 ![Opcion 4](./img/opcion4.png)
-- Listar libros por idioma
+- Listar libros por idioma  
 ![Opcion 5 p1](./img/opcionLenguajes.png)  
-![Opcion 5 p2](./img/opcion5p2.png)  
-- Salir
+![Opcion 5 p2](./img/opcion5p2.png)    
+- Salir  
 Esto termina el programa
