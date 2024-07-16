@@ -30,7 +30,7 @@ public class Cliente {
         }
 
         String json = response.body();
-        System.out.println("RESPUESTA " + json.length() + " CARACTERES");
+        //System.out.println("RESPUESTA " + json.length() + " CARACTERES");
         return json;
     }
 }
