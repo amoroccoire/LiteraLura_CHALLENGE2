@@ -33,8 +33,14 @@ public class AutorServices {
     public Autor saveAutor(AutorData autorData) {
 
         String[] parts = autorData.nombres().split("\\s*,\\s*");
-        String apellido = parts[0];
-        String nombre = parts[1];
+        String apellido = "";
+        String nombre = "";
+        if (parts.length == 2) {
+            apellido = parts[0];
+            nombre = parts[1];
+        } else {
+            apellido = parts[0];
+        }
 
         Autor autor = Autor.builder()
                 .id(null)
