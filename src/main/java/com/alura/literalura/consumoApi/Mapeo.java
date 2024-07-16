@@ -15,7 +15,7 @@ public class Mapeo {
 
     public ApiResponse deserializar(String json) {
         try {
-            System.out.print("RESPUESTA" + json);
+            //System.out.print("RESPUESTA" + json);
             return objectMapper.readValue(json, ApiResponse.class);
         } catch (IOException e) {
             throw new RuntimeException("Error deserializando JSON");
