@@ -94,7 +94,6 @@ public class Principal {
         LibroDto libro = libroServices.searchByTitle(titulo);
         if (libro == null) {
             String path = baseUrl + "/books/?search="+titulo;
-            System.out.println("PATH a consultar" +  path);
             String json = cliente.getData(path);
             apiResponse = mapeo.deserializar(json);
             LibroData libroData = apiResponse.results().getFirst();
