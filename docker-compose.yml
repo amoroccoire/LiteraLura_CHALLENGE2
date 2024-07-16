@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  ###postgresql
+  db-cartilla:
+    container_name: db-Literalura
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: biblioteca
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+    ports:
+      - "5430:5432"
+    command: ["postgres", "-p", "5432"]
